@@ -1,0 +1,122 @@
+body{
+background-color:rgb(71, 185, 185);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+nav{
+    size: 90px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color:white;
+    height: 37px;
+    padding: 1.5rem ;
+    margin-top:-0.5rem; ;
+    z-index: 10000;
+    box-shadow:rgba(0,0,0,0.35) 0px 5px 15px;
+    position:fixed;
+    width: 100vw;
+}
+.navbar li{
+    color: black;
+    align-items: center;
+    list-style: none;
+    font-size: 30px;
+    margin-left: 100px; 
+}
+#Search{
+    color:black;
+    font-size: medium;
+}
+.header1{
+    margin: 0px 0px;
+    align-items:flex-start;
+}
+.header2{
+    margin-left: 950px;
+} 
+.header3{
+    justify-content:space-evenly;
+}
+a{
+  font-family: fantasy;
+  color: black;
+  background-color: transparent;
+  text-decoration: none
+}
+a:hover {
+    color: rgba(27, 66, 64, 0.278);
+    text-decoration: underline;
+  } 
+  a:active {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+#logo{
+    height: 146px;
+    margin-left: -26px;
+    margin-bottom: -70px;
+    width: 205px;
+    outline-style: dotted;
+    OUTLINE-COLOR: aquamarine;
+}
+#logo:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+    transition: opacity  0.5s ease;
+}
+#items{
+    height: 100vh;
+    background:whitesmoke ;
+    width: 100px;
+    margin-left: -9px;
+}
+.items{
+    height: 121px;
+    margin-top: 150px;
+    position: relative;
+    border-radius: 50%;
+    OUTLINE-STYLE: solid;
+    OUTLINE-COLOR: aquamarine;
+}
+#planters{
+    margin-top: 16px;
+    height: 118px;
+    border-radius: 50%;
+    OUTLINE-STYLE: solid;
+    OUTLINE-COLOR: aquamarine;
+}
+#item2{
+    margin-top: 17px ;
+    height: 150px;
+    border-radius: 100%
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+#items .item1-container .subitem{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+#items .item1-container .item1:hover #items .item1-container .subitem{
+display: block;
+}
